@@ -36,19 +36,21 @@ nnoremap <C-l> <C-w>l
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 " buffers
-nnoremap <tab> :bn<CR>
-nnoremap <s-tab> :bp<CR>
-nnoremap <leader>bd :bd<CR>
-nnoremap <C-f> :FZF<CR>
+nnoremap <C-tab> >>
+"nnoremap <s-tab> :bp<CR>
+"nnoremap <leader>bd :bd<CR>
+"nnoremap <C-f> :FZF<CR>
 "map <C-m> :FZF<CR>
 let g:NERDTreeChDirMode = 2  " Cambia el directorio actual al nodo padre actual
 map <C-b> :NERDTreeToggle<CR>
 map <C-V> :vsplit<CR>
 map <C-p> :split<CR>
-map <C-t> :FloatermNew<CR>
+map <C-j> :FloatermNew<CR>
+map <C-r> :FloatermNew ranger<CR>
 map <C-o> :IndentLinesToggle<CR>
 map <C-x> :bb<CR>
 map <f6> :vnew<CR>
 "map <C-d>:NERDTreeFind<CR>
 "map <C-v> :p<CR>
 "map <C-f> :BLines<CR>
+
