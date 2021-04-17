@@ -296,8 +296,8 @@ set fillchars+=vert:\|
 "  colorscheme tender
 "  colorscheme moonfly
 " colorscheme shades_of_purple
-" let g:gruvbox_contrast_dark = "hard"
-let g:gruvbox_contrast_dark = "medium"
+let g:gruvbox_contrast_dark = "hard"
+"let g:gruvbox_contrast_dark = "medium"
 "let g:gruvbox_contrast_dark = "soft"
 " ==============config=======deus=======
 set t_Co=256
@@ -401,7 +401,3 @@ function! LinterStatus() abort
 endfunction
 
 set statusline=%{LinterStatus()}
-
-
-
-
